@@ -66,20 +66,20 @@ export default function LoginPage() {
         <div className="relative">
           <h1 className="text-5xl font-bold text-white leading-tight mb-6">
             Smart Lending,<br />
-            <span style={{ color: "#14B8A6" }}>Simplified.</span>
+            <span style={{ color: "#14B8A6" }}>Seamless Operations</span>
           </h1>
           <p className="text-slate-400 text-lg leading-relaxed">
-            A complete loan management platform built for modern fintech operations.
+            From borrower onboarding to loan closure — all in one intelligent platform.
           </p>
           <div className="mt-10 grid grid-cols-3 gap-4">
-            {["₹5L+ Loans", "6 Roles", "Full RBAC"].map((stat) => (
+            {["₹5L+ Loans", "6 User Roles", "Full RBAC"].map((stat) => (
               <div key={stat} className="glass-card p-4 text-center">
                 <span className="text-sm font-semibold" style={{ color: "#14B8A6" }}>{stat}</span>
               </div>
             ))}
           </div>
         </div>
-        <p className="text-slate-600 text-sm relative">© 2024 LoanFlow. All rights reserved.</p>
+        <p className="text-slate-600 text-sm relative">© 2026 LoanFlow. All rights reserved.</p>
       </div>
 
       {/* Right form */}
